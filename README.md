@@ -52,3 +52,10 @@ This repository trains and records the baseline. It does not yet expose predicti
 ## Planned continuation
 
 The next project will extend this same repository with monitored inference behavior while preserving the training pipeline and evidence created here.
+
+## Data Card
+
+- **Source:** OpenML dataset `titanic`, version `1`: https://www.openml.org/d/40945
+- **Intended use:** This is an educational portfolio baseline for learning reproducible machine learning and monitoring foundations. It must not be used for real-world safety decisions, passenger decisions, or other operational decisions about people.
+- **Limitations:** Titanic records reflect a historical event and social context that does not represent modern populations or decision settings. The selected features include missing values, especially in `age`, and the small historical dataset is not suitable for general real-world prediction claims.
+- **Portfolio continuation:** A later portfolio conversion will replace Titanic with online-shopping purchase data while preserving the same monitoring architecture.
