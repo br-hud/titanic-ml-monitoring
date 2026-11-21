@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "name": "titanic",
+    "openml_version": 1,
+    "source": "https://www.openml.org/d/40945"
+  },
+  "features": [
+    "pclass",
+    "sex",
+    "age",
+    "fare"
+  ],
+  "classes": [
+    "0",
+    "1"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "accuracy": 0.80916,
+  "confusion_matrix": [
+    [
+      139,
+      23
+    ],
+    [
+      27,
+      73
+    ]
+  ],
+  "python_version": "3.12.10",
+  "pandas_version": "3.1.1",
+  "scikit_learn_version": "1.9.1"
+}

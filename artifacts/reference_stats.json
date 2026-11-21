@@ -1,0 +1,22 @@
+{
+  "numeric__pclass": {
+    "mean": 2.314231,
+    "std": 0.831345
+  },
+  "numeric__age": {
+    "mean": 29.284066,
+    "std": 12.857821
+  },
+  "numeric__fare": {
+    "mean": 32.149311,
+    "std": 48.872365
+  },
+  "categorical__sex_female": {
+    "mean": 0.355301,
+    "std": 0.478604
+  },
+  "categorical__sex_male": {
+    "mean": 0.644699,
+    "std": 0.478604
+  }
+}
